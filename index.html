@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+
+
+
+    <div class="row text-center">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+            <div id="clock">
+                <h2>Stop Watch</h2>
+                <div class="time">
+                    <div><span id="Minute">00</span><span>Minutes</span></div>
+                    <div><span id="Seconds">00</span><span>Seconds</span></div>
+                    <div><span id="Miliseconds">00</span><span>MiliSeconds</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-12 mt-3 btn-this">
+            <button class="btn btn-primary" onclick="start()">Start</button>
+            <button class="btn btn-primary" onclick="stop()">Pause</button>
+            <button class="btn btn-primary ext" onclick="reset()">Reset</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
